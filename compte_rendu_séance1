@@ -1,4 +1,7 @@
 Compte rendu de la séance 1 :
                                  - j'ai créé le Github de mon projet Orgue
-                                 -
-                                 -
+                                 - je me suis reseigné sur les "harpes laser", afin de murir mon idée de projet.
+                                 - j'ai apris le fonctionement des laser/recepteur
+                                 - j'ai créé un programe de test "capteur_et_laser.ino" qui retourne oui dans le moniteur séri ssi le capteur capte le laser et non sinon
+                                 - 
+ATENTION : joindre les codes !!!!
