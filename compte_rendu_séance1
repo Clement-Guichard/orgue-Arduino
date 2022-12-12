@@ -1,7 +1,10 @@
 Compte rendu de la séance 1 :
                                  - j'ai créé le Github de mon projet Orgue
+                                 - j'ai comencer mon cahier des charges.
                                  - je me suis reseigné sur les "harpes laser", afin de murir mon idée de projet.
                                  - j'ai apris le fonctionement des laser/recepteur
                                  - j'ai créé un programe de test "capteur_et_laser.ino" qui retourne oui dans le moniteur séri ssi le capteur capte le laser et non sinon
-                                 - 
+                                 - j'ai apris le fonctionement des buzzer
+                                 -  j'ai créé un programe de test "capteur_et_laser_+_buzzer.ino" qui emet un son ssi le capteur capte le laser et rien sinon
+                              
 ATENTION : joindre les codes !!!!
