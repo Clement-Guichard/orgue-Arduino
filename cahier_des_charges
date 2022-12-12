@@ -1,7 +1,7 @@
 description du projet :
-____________________________
-_____________________________
-_____________________________
+mon projet consite en la fabrication d'une orgue Arduino. elle disposera d'un clavier de ??? touches. 
+un laser passera au traver de chacunes de ces touches, et quand on apuira sur ces dernières, elles se placerons entre le laser et le capteur ascocié.
+cela generera un son.
 
 
 materiel nessecaire :
