@@ -5,6 +5,34 @@ Compte rendu de la séance 1 :
                                  - j'ai apris le fonctionement des laser/recepteur
                                  - j'ai créé un programe de test "capteur_et_laser.ino" qui retourne oui dans le moniteur séri ssi le capteur capte le laser et non sinon
                                  - j'ai apris le fonctionement des buzzer
-                                 -  j'ai créé un programe de test "capteur_et_laser_+_buzzer.ino" qui emet un son ssi le capteur capte le laser et rien sinon
+                                 - j'ai créé un programe de test "capteur_et_laser_+_buzzer.ino" qui emet un son ssi le capteur capte le laser et rien sinon
                               
-ATENTION : joindre les codes !!!!
+
+capteur_et_laser.ino :
+
+                        int sortie_capteur = 2;
+
+                        void setup() {
+                          pinMode(sortie_capteur, INPUT);
+                          Serial.begin(9600);
+                        }
+
+                        void loop() {
+                          if (digitalRead(sortie_capteur) == 1){Serial.println("oui");}
+                          else {Serial.println("non");}
+                        }
+
+capteur_et_laser_+_buzzer.ino :
+                                int sortie_capteur = 2;
+                                int buzzer = 8; // le buzer nesscessite une sortie analogique ???
+
+                                void setup() {
+                                  pinMode(sortie_capteur, INPUT);
+                                  pinMode(buzzer, OUTPUT);
+                                  Serial.begin(9600);
+                                }
+
+                                void loop() {
+                                if (digitalRead(sortie_capteur) == 1){Serial.println("non");} // si le capteur ne capte pas le laser
+                                else {tone(buzzer,100,1000);} // si le capteur capte le laser
+                                }
