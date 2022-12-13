@@ -1,20 +1,28 @@
 description du projet :
 mon projet consite en la fabrication d'une orgue Arduino. elle disposera d'un clavier de ??? touches. 
-un laser passera au traver de chacunes de ces touches, et quand on apuira sur ces dernières, elles se placerons entre le laser et le capteur ascocié.
-cela generera un son.
+un laser passera au traver de chacunes de ces touches au repos, et quand on apuira sur ces dernières, elles se placerons entre le laser et le capteur ascocié.
+Cela generera un son, diférent selon la touche.
+- Un mode automatique pourra être ajouter.
+- De la fumée pou visualiser les laser pourra être ajoutée.
+- un enregistrement du dernier moceau pourra être ajouté.
+- une modification des sons pourra être ajoutée.
+
 
 
 materiel nessecaire :
-                      -
-                      -
-                      -
-                      -
-                      -
+                      - ??? lasers et ??? recepteurs
+                      - un buzer
+                      - des fils
+                      - une/des cartes à trou
+                      - une carte arduinno Uno
+                      - ??? touches de clavier (à imprimer)
+                      - le squelete de l'orgue (à imprimer ou découper)
+                      
 
 
 programe :
-            séance 1 :
-            séance 2 :
+            séance 1 : murir le projet
+            séance 2 : 
             séance 3 :
             séance 4 :
             séance 5 :
