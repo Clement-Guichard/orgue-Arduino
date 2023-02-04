@@ -1,0 +1,21 @@
+Ayant était absent aux séances trois et quatre, J'ai rattrapé mon retard au cours des vacances. Voici ce que j'ai fait exactement :
+  
+  
+  - J'ai terminé de monter la première version de mon orgue (lasers et capteurs alignés, scotchés sur une planche en bois)
+  
+  
+  - J'ai écrit trois codes différent, permettant d'implémenter les fonctionnalités de mon orgue. 
+    Pour ce faire j'ai du branché la première version de mon projet, et ainsi trouver comment la relier à la "carte à trou" d'Arduino.
+    Les trois codes sont les suivants :
+                                          - Le premier permet de générer les sept notes fondamentales (do, ré, mi, fa, sol, la, si) 
+                                            en fonction du laser que l'on coupe avec notre doigt. Il est écrit uniquement à l'aide de 
+                                            if et de else ce qui le rend particulièrement lourd.
+                                            
+                                          - Le deuxième permet de faire exactement la même chose que le premier, mais il utilise 
+                                            des listes réduisant ainsi le "void loop()" à quelques lignes.
+                                            
+                                          - Le troisième avait pour but de régler le problème sonore qui survenait quand on coupait
+                                            deux laser simultanément, et cela en ajoutant un second buzer, mais ce code ne marche pas.
+  
+  
+  - J'ai modélisé en 3D sur le logiciel Oneshape la structure de mon orgue.
